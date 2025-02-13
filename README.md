@@ -1,1 +1,1 @@
-# Conciertos conectados
+# Detail
