@@ -1,0 +1,74 @@
+@import url(/css/variables.css);
+
+*{
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.banner{
+    display: flex;
+    flex-direction: row;
+    margin-left: 5%;
+    gap: 78%;
+    /* background-color: green ; */
+}
+
+.title_home{
+    font-size: 110%;
+    font-family: "inter";
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+    margin-left: 5%;
+    /* background-color: violet; */
+    /* flex-direction: column; */
+}
+
+.a{
+    display: flex;
+    color: var(--color-1);
+    margin-bottom: -4%;
+    /* background-color: blue; */
+    height: 35px;
+}
+
+.b{
+    display: flex;
+    color: var(--color-2);
+    /* position: relative; */
+    /* background-color: turquoise; */
+
+}
+
+.search{
+    /* background-color: blue; */
+    margin-top: 2%;
+    display: flex;
+    margin-left: 5%;
+    width: 90%;
+    height: 40px;
+    z-index: -1;
+}
+
+.search input{
+    width: 100%;
+}
+
+.Stext{
+    background-color: blue;
+    height: 20px;
+    width: 40%;
+}
+
+.srh{
+    position: absolute;
+    top: 27.5%;
+    left: 8%;
+    background-color: aqua;
+    width: 5%;
+}
+
+.filt{
+    width: 5%;
+    background-color: brown;
+}

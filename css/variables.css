@@ -1,0 +1,9 @@
+:root{
+    --color-1: #000000;
+    --color-2: #761CBC;
+}
+
+@font-face {
+    font-family: "inter";
+    src: url(/storage/font/fonts/Inter/Inter_18pt-SemiBold.ttf);
+}
