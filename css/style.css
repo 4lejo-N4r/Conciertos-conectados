@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: var(--color-3);
+}
+
 .banner{
     display: flex;
     flex-direction: row;
@@ -46,29 +50,40 @@
     display: flex;
     margin-left: 5%;
     width: 90%;
-    height: 40px;
+    height: 45px;
     z-index: -1;
 }
 
 .search input{
     width: 100%;
+    border-radius: 10px;
+    border-style: none;
 }
 
 .Stext{
-    background-color: blue;
-    height: 20px;
+    position: absolute;
+    top: 25.8%;
+    left: 15%;
+    font-family: "inter-regular";;
+    /* background-color: blue; */
+    height: 40px;
     width: 40%;
+    justify-content: center;
 }
 
 .srh{
     position: absolute;
-    top: 27.5%;
+    top: 28.2%;
     left: 8%;
-    background-color: aqua;
+    /* background-color: aqua; */
     width: 5%;
 }
 
 .filt{
+    position: absolute;
+    top:28.2%;
+    left: 85%;
     width: 5%;
-    background-color: brown;
+    /* background-color: brown; */
 }
+
