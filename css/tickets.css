@@ -1,0 +1,117 @@
+@import url(/css/variables.css);
+
+*{
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: violet;
+    z-index: -1;
+}
+
+.tickets{
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+}
+
+.tickets-carousel{
+    display: flex;
+    flex-direction: row;
+    margin-top: 12%;
+    margin-left: 5%;
+    gap: 10%;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+
+.ticket-item1{
+    display: flex;
+    position: relative;
+    background-color: white;
+    border-radius: 18px;
+    padding-left: 0%;
+    padding-right: 0%;
+    height: 100%;
+    width: 87%;
+}
+
+.bann img{
+    display: flex;
+    position: relative;
+    /* background-color: aqua; */
+    margin-bottom: 120%;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+/* .center img{
+    display: flex;
+    position: relative;
+    background-color: blueviolet;
+    margin-top: 100%;
+    margin-left: -89.5%;
+} */
+
+.title{
+    display: flex;
+    position: relative;
+    margin-top: 51%;
+    margin-left: -83%;
+    margin-right: 0%;
+    height: 5%;
+    /* background-color: coral; */
+}
+
+.title h2{
+    font-family: "inter";
+    font-size: 105%;
+}
+
+
+
+.ticket-item2{
+    display: flex;
+    position: relative;
+    background-color: white;
+    border-radius: 18px;
+    padding-left: 0%;
+    padding-right: 0%;
+    height: 100%;
+    width: 87%;
+}
+
+
+
+.bann img{
+    display: flex;
+    position: relative;
+    /* background-color: aqua; */
+    margin-bottom: 120%;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+/* .center img{
+    display: flex;
+    position: relative;
+    background-color: blueviolet;
+    margin-top: 100%;
+    margin-left: -89.5%;
+} */
+
+.title2{
+    display: flex;
+    position: relative;
+    margin-top: 51%;
+    margin-left: -83%;
+    margin-right: 0%;
+    height: 5%;
+    /* background-color: coral; */
+}
+
+.title2 h2{
+    font-family: "inter";
+    font-size: 105%;
+}
