@@ -1,7 +1,8 @@
 @import url(/css/variables.css);
 
 *{
-    padding: 0;
+    padding: 0%;
+    margin: 0%;
     box-sizing: border-box;
     
 }
@@ -10,53 +11,39 @@ body{
     background-color: var(--color-3);
 }
 
+header{
+    position: relative;
+}
 .banner{
-    display: flex;
-    /* background-color: blue; */
-    width: 107%;
-    justify-items: center;
-    align-items: center;
-    margin-left: -5%;
-    margin-top: -5%;
-    z-index: -1;
-}
-
-.banner img{
-    display: flex;
-    height: 100%;
-    width: 120%;
-    z-index: -1;
-}
-
-.back{
-    display: flex;
+  display: flex;
+  width: 100%;
     justify-content: center;
     align-items: center;
-    width: 10%;
-    padding-top: 2.5%;
-    padding-bottom: 2.2%;
-    margin-top: -80%;
-    border-radius: 10px;
-    background-color: rgba(255, 255, 255, 0.267);
-    /* backdrop-filter: blur(1px);                    */
-    /* background-color: blue; */
+   
 }
-
-.back img{
-    max-width: 100%;
-    height: auto;
+.banner img{
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+.back{
+    position: absolute;
+    left: 3%;
+    top: 5%; 
 }
 
 
 .target{
+    position: absolute;
+    z-index: 1;
+    top: 37%;
     display: flex;
-    flex-direction: row;
-    margin-top: 70%;
-    width: 100%;
+    flex-direction: column;
+    width: 85%;
     padding-bottom: 25%;
     background-color: var(--color-9);
-    margin-top: 50%;
     border-radius: 15px;
+    left: 8%;
 }
 
 .titles{
@@ -68,7 +55,8 @@ body{
     margin-left: 6%;
     padding-bottom: 0%;
     z-index: 1;
-    background-color: aqua;
+    margin-top: 4%;
+    /* background-color: aqua; */
     /* background-color: rgba(0, 0, 255, 0.358); */
 }
 
